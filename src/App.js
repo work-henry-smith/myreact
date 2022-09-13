@@ -1,11 +1,14 @@
-import {AiFillBug} from 'react-icons/ai'
-import Search from './components/Search'
+import {AiFillBug} from 'react-icons/ai';
+import AddAppointment from './components/AddAppointment';
+import Search from './components/Search';
+import AddAppointment from './components/AddAppointment';
 
 function App() {
   return (
     <div className="App">
       <h1>Hello, World!!! <AiFillBug /></h1>
       <Search />
+      <AddAppointment />
     </div>
   );
 }
