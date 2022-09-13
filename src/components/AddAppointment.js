@@ -6,7 +6,7 @@ const AddAppointment = () => {
   return (
     <div>
       <button onClick={() => {setToggleForm(!toggleForm)}} className="bg-blue-400 text-white px-2 py-3 w-full text-left rounded-t-md">
-        <div><BiCalendarPlus className="inline-block align-text-top" />  Add Appointment</div>
+        <div><BiCalendarPlus className="inline-block align-text-top" />   Đặt xe ngay</div>
       </button>
       {toggleForm && <div className="border-r-2 border-b-2 border-l-2 border-light-blue-500 rounded-b-md pl-4 pr-4 pb-4">
         <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start  sm:pt-5">
